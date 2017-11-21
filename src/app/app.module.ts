@@ -5,14 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { ProductDesciptionComponent } from './product-desciption/product-desciption.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDesciptionComponent,
     ProductDescriptionComponent
   ],
   imports: [
